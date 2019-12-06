@@ -1,5 +1,5 @@
 #!/bin/bash
-echo hoge
-echo hoge
-echo hoge
+echo 輝く未来
+echo 乙
+echo コロンビア
 
