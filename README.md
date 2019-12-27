@@ -1,5 +1,5 @@
 # robosys
-LEDを点灯させるデバイスドライバを作成しました。
+LEDを点灯させるデバイスドライバを作成しました。                                                                                           
 デモ動画は https://www.youtube.com/watch?v=z1LEITZjFU4&feature=youtu.be です。
 
 # dependency
@@ -7,12 +7,12 @@ LEDを点灯させるデバイスドライバを作成しました。
 
 # Setup
 $ make                                   														                                                          
-$ sudo insmod myled.ko
+$ sudo insmod myled.ko                                                                                                         
 $ sudo chmod 666 /dev/myled0 
 
 # Usage
-/dev/myled0に1を書き込むとLEDが光り0を書き込むとLEDが消灯します。
-点灯：$ echo 1 > /dev/myled0
+/dev/myled0に1を書き込むとLEDが光り0を書き込むとLEDが消灯します。                                                                         
+点灯：$ echo 1 > /dev/myled0                                                                                                     
 消灯：$ echo ０ > /dev/myled0
 
 # References
