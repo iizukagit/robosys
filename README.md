@@ -6,7 +6,7 @@ LEDを点灯させるデバイスドライバを作成しました。
 使用言語はC言語です。
 
 # Setup
-$ make
+$ make                                   														                                                          
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0 
 
